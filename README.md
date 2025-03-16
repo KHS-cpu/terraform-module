@@ -18,17 +18,17 @@ In This Lab we want to create an EC2 instance using a module. Instead of writing
 
 ### Directory Structure
 
+```
 terraform-module/
-│
-├── ec2-instance/                   # Root module folder that calls ec2_module
-│   ├── main.tf                     # Defines how the module is used (instance creation)
-│   ├── providers.tf                # Contains the provider configuration (AWS in this case)
-│   └── outputs.tf                  # Defines any outputs for the root module (e.g., public IP of the instance)
-│
-└── ec2_module/                     # Module folder that defines how an EC2 instance is created
-    ├── main.tf                     # Contains resource definitions (EC2 instance creation)
-    ├── variables.tf                # Declares variables (ami, instance_type, instance_name)
-    └── outputs.tf                  # Defines output values (public IP of the EC2 instance)
+├── ec2-instance/              # Root module folder that calls ec2_module
+│   ├── main.tf                # Defines how the module is used (instance creation)
+│   ├── providers.tf           # Contains the provider configuration (AWS in this case)
+│   └── outputs.tf             # Defines any outputs for the root module (e.g., public IP of the instance)
+└── ec2_module/               # Module folder that defines how an EC2 instance is created
+    ├── main.tf                # Contains resource definitions (EC2 instance creation)
+    ├── variables.tf           # Declares variables (ami, instance_type, instance_name)
+    └── outputs.tf             # Defines output values (public IP of the EC2 instance)
+```
 
 
 ## See below for diagram
