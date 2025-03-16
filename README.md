@@ -33,5 +33,5 @@ terraform-module/
 
 ## See below for diagram
 
-![Alt text](https://imgur.com/a/6owZT2E.png)
+![Image](https://github.com/user-attachments/assets/8a604bc6-f85e-4190-8a38-121f86836408)
 
