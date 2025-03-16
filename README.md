@@ -15,7 +15,7 @@ Modules encapsulate logic and resources. You don’t need to see the details of 
 
 ## Lab Description
 In This Lab we want to create an EC2 instance using a module. Instead of writing all the resources in one large file, we can define a module for EC2 and reuse it in our project.
-P.S Also in providers.tf you need to create a user that has policy to create EC2 instance.
+P.S Also in ```providers.tf``` you need to create a user that has policy to create EC2 instance.
 
 ### Directory Structure
 
